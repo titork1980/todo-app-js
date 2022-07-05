@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+input{
+  border-radius: 16pix;
+}
+
+button{
+  border-radius: 16pix;
+  border: none;
+  padding:4px 16px
+}
+
+button:hover{
+  background-color:#FF7FFF;
+  cursor: pointer;
+}
+
+
+.input-area{
+  background-color: #c1FFFF;
+  width: 400px;
+  height: 30px;
+}
+
+.incomplete-area{
+  background-color:#c6FFE2;
+  width: 400px;
+  min-height: 200px;
+}
+
+.complete-area{
+  background-color:#008000
+  width: 400px;
+  min-height: 200px;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  color:#666
+}
